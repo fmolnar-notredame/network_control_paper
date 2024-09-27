@@ -1,5 +1,5 @@
 # Global network control from local information - Supplementary Information
-## Aleksandar Haber, Ferenc Molnar, and Adilson E. Motter
+by Aleksandar Haber, Ferenc Molnar, and Adilson E. Motter
 
 ## Abstract
 
@@ -14,3 +14,39 @@ simulations on regular and random networks and are further illustrated by an app
 control of power-grid synchronization. We demonstrate that for well-conditioned Gramians, there
 is no significant loss of control performance as the size of the state information neighborhood is
 reduced, allowing efficient control of large networks using only local information.
+
+## Contents of this Repository
+
+### [Adjacency]
+Network adjacency information for the RGG and Iceland networks in edge-list format. 
+In the files each line indicates an edge, identified by the two node labels.
+
+### [Figures_Iceland]
+State Information Neighborhood (SIN) Plots for the Iceland network. 
+
+Each file is labelled by the central node of the SIN.
+
+Network parameters:
+- Number of nodes = 224
+- Number of edges = 238
+
+SIN parameters:
+- f = 2
+- q = 2
+
+### [Figures_RGG]
+State Information Neighborhood (SIN) Plots for the Random Geometric Graph (RGG) network. 
+
+Each file is labelled by the central node of the SIN.
+
+Network parameters:
+- Number of nodes = 702
+- Number of edges = 3390
+
+SIN parameters:
+- f = 5
+- q = 3
+
+### [Script]
+Utilities to generate this github repository.
+
