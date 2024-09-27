@@ -1053,4 +1053,4 @@
     <td> 701 <img src="fig/FigSI_RGG_SIN_701.png" </td>
     <td> 702 <img src="fig/FigSI_RGG_SIN_702.png" </td>
   </tr>
-/table>
+</table>
