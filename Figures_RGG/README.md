@@ -1,4 +1,4 @@
-# Random Geometric Graphs
+# Random Geometric Network
 
 <table>
   <tr>
